@@ -13,7 +13,7 @@
 	 </bean>
 	 <bean id="mysqlDmds"  class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 	     <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-	     <property name="url"  value="jdbc:mysql:///ntspbms714db"/>
+	     <property name="url"  value="jdbc:mysql:///ntspbms714"/>
 	     <property name="username" value="root"/>
 	     <property name="password" value="root"/>
 	 </bean>
